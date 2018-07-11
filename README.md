@@ -1,4 +1,4 @@
-# Project Overview
+<!-- # Project Overview
 
 In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
 
@@ -45,4 +45,35 @@ Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/pr
 18. Callbacks should be used to ensure that feeds are loaded before they are tested.
 19. Implement error handling for undefined variables and out-of-bound array access.
 20. When complete - all of your tests should pass. 
-21. Write a README file detailing all steps required to successfully run the application. If you have added additional tests (for Udacious Test Coverage),  provide documentation for what these future features are and what the tests are checking for.
+21. Write a README file detailing all steps required to successfully run the application. If you have added additional tests (for Udacious Test Coverage),  provide documentation for what these future features are and what the tests are checking for. -->
+
+feed reader testing
+===============================
+
+## Table of Contents
+
+* [project Details](#project_details)
+* [js/app.js](#js/app.js)
+* [Functions](#functions)
+* [spec/feedreader.js](#spec/feedreader.js)
+
+## project Details
+
+Testing the functionality for a feed reader using Jasmine frame work
+
+## js/app.js
+
+Has the main functionality,
+
+## Functions
+function loadFeed(index, cb) :
+ This function performs everything necessary to load a feed using the Google Feed Reader API. It will thenperform all of the DOM operations required to display feed entries on the page. Feeds are referenced by their index position within the allFeeds array. This function all supports a callback as the second parameter which will be called after everything has run successfully.
+
+## spec/feedreader.js
+
+ This is the spec file that Jasmine will read and contains all of the tests that will be run against your application.
+ 
+ We're placing all of our tests within the $() function, since some of these tests may require DOM elements. We want to ensure they don't run until the DOM is ready.
+
+
+
