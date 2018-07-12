@@ -63,7 +63,7 @@ $(function () {
         
         //insures that at least one entry is loaded
         it('has a single entry in feed container', function (done) {
-            expect($('.entry').length).not.toEqual(0);
+            expect($('.entry h2').length).not.toEqual(0);
             done();
         });
     })
