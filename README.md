@@ -4,6 +4,7 @@ feed reader testing
 ## Table of Contents
 
 * [project Details](#project_details)
+* [Instructions](#instruction)
 * [js/app.js](#js/app.js)
 * [Functions](#functions)
 * [spec/feedreader.js](#spec/feedreader.js)
@@ -11,6 +12,9 @@ feed reader testing
 ## project Details
 
 Testing the functionality for a feed reader using Jasmine frame work
+
+## instructions
+To start the app you need to open index.html
 
 ## js/app.js
 
